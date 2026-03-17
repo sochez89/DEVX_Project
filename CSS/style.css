@@ -1,0 +1,293 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.nav-bar{
+    background-color: #F5F3F7;
+    display: flex;
+    justify-content: space-around;
+}
+.logo-name{
+    display: inline-block;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+.nav-links1{
+    display: flex;
+    padding-top: 16px;
+}
+
+.nav-links2{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+}
+.nav-links2 :hover{
+    background-color: #541174;
+    border-radius: 5px;
+    color: white;
+}
+ul {
+        list-style-type: none;
+        text-decoration-line: none;
+}
+ul a{
+    text-decoration: none;
+    justify-content: space-around;
+    padding: 10px;
+    color: black;
+}
+.signup{
+    background-color:  #541174;
+    border-radius: 5px;
+    color: white;
+}
+
+/* Tablet styles (481px - 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    .nav-bar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .logo-name{
+        align-items: center;
+    }
+    
+    .nav-links1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .nav-links2{
+        justify-content: center;
+    }
+}
+
+/* Mobile styles (up to 480px) */
+@media (max-width: 480px) {
+    .nav-bar{
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .logo-name{
+        padding: 16px;
+        text-align: center;
+    }
+    
+    .nav-links1{
+        flex-direction: column;
+        align-items: center;
+        /* gap: 5px; */
+    }
+    
+    .nav-links2{
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+    }
+    
+    ul a{
+        padding: 8px;
+        display: block;
+        text-align: center;
+    }
+}
+.section1{
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding: min(12.5rem, 8%);
+    /* padding-top: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px; */
+    background: white;
+
+}
+.section1 h6{
+    margin-top: 50px;
+    margin-bottom: 0.5rem;
+}
+.section1 p{
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+.first-header{
+    margin: auto;
+    align-items: center;
+    font-size: medium;
+    width: 150px;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+.growing-skill{
+    /* font-size: 80px; */
+    font-size: clamp(1.8rem, 10vw, 5rem);
+}
+.description{
+    font-size: 20px;
+    /* padding-left: 180px;
+    padding-right: 180px; */
+}
+.btn-started{
+    margin: auto;
+    background-color: purple;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+    margin-top: 1rem;
+    width: 150px;
+    margin-bottom: 0.5rem;
+}
+.few-numbers{
+    background: #F5F3F7;
+}
+
+.few-numbers h3{
+    text-align: center;
+    font-size: clamp(0.5rem, 5vw, 1.878rem);
+    font-size: 30px;
+}
+.achievement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.achievement p {
+    font-size: 0.8rem;
+}
+
+.achievement .trophy, .users, .smiley, .brief-case{
+    display: flex;
+}
+
+.our_story{
+    display: flex;
+    /* padding-left: 15rem;
+    padding-right: 15rem;
+    padding-top: 5rem; */
+
+
+    padding-inline: clamp(2rem, 12vw, 15rem);
+    /* padding-top: clamp(1.5rem, 5vw, 5rem);
+    gap: 5rem; */
+
+    /* padding: (10px, 4vw, 50px); */
+
+    padding-inline: clamp(1rem, 15vw, 15rem); 
+
+    /* Top: Starts at 5rem, shrinks at 5% of screen width */
+    padding-top: clamp(1rem, 5vw, 5rem);
+
+    /* Gap: Shrinks from 5rem down to 1rem based on 6% of screen width */
+    gap: clamp(1rem, 6vw, 5rem);
+
+    display: flex;
+    align-items: center;
+}
+.story{
+    /* display: flex; */
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex: 1;
+  
+}
+.story h3{
+      padding-left: 4rem;
+      font-size: 2rem;
+}
+
+ .story p{
+    padding: 0rem 4rem  0rem 4rem;
+}
+
+.image_behind_our_story{
+    border-radius: 15px;
+}
+
+.whatSetsUsApart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #eadaf1;
+    width: 70%;
+    margin-inline: auto;
+    border-radius: 0.5rem;
+}
+
+
+hr {
+  border: 0;             /* Remove the default gray shade */
+  height: 1px;           /* Control thickness */
+  background: #e9e5e5de;      /* Control color */
+  width: 100%;            /* Make it shorter than the container */
+  margin-inline: auto;   /* Center it (since it's now shorter) */
+  margin-block: rem;    /* Add space above and below */
+  margin-top: 4rem;
+}
+.whatSetsUsApartHeader{
+ 
+    text-align: center;
+    font-size: 1.5rem;
+}
+.difference h5{
+    justify-content: center;
+}
+.difference h5{
+    text-align: center;
+    font-size: 1rem;
+}
+.difference p{
+    padding-left: 14rem;
+    padding-right: 14rem;
+    text-align: center;
+    padding-bottom: 4rem;
+
+    position: relative;
+    width: 60%;          /* Matches your centered box */
+    margin-inline: auto;
+    border-radius: 20px; /* All 4 corners! */
+    overflow: hidden;
+
+}
+.scholarship{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+img{
+    display: block; 
+  margin-inline: auto; 
+  max-width: 100%;
+  padding-top: 2rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.join_our_team{
+    display: flex;
+    flex: 1;
+    padding-left: 15rem;
+    padding-right: 15rem;
+    gap: 5rem;
+
+}
+.list1{
+    padding: 5rem;
+}
+.image_cover{
+    display: block;
+    object-fit: cover;
+}
