@@ -65,6 +65,25 @@ ul a{
     .nav-links2{
         justify-content: center;
     }
+    /*media query for footer*/
+    .foot-note1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .foot-header{
+        justify-content: center;
+        align-items: center;
+    }
+    .foot-note2{
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 20px;
+    }
+    .social-icon{
+        padding-left: 0px;
+        justify-content: center;
+    }
 }
 
 /* Mobile styles (up to 480px) */
@@ -243,6 +262,24 @@ img{
 
 }
 
+/*Grow your career*/
+.grow-career{
+    margin: auto;
+    display: flex;
+    background-color: #7820b3;
+    color: white;
+    width: 80%;
+    /* align-items: center; */
+    border-radius: 10px;
+    justify-content: space-around;
+}
+.grow{
+    padding: 20px;
+}
+.growCareerImage{
+    padding: 20px;
+}
+
 /*Our Mentors*/
 .our-mentors{
     justify-content: center;
@@ -299,7 +336,14 @@ img{
 }
 .foot-note1{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 100px;
+}
+.foot-header{
+    padding-right: 200px;
+}
+.foot-header p{
+    padding-right: 100px;
 }
 .social-link{
     display: flex;
@@ -308,21 +352,19 @@ img{
     font-weight: 1.8rem;
     padding: 20px 40px 20px 30px;
 }
-.footNote2{
+.foot-note2{
     margin-top: 20px;
     margin-bottom: 20px;
     display: flex;
-    flex: 1;
-    justify-content: space-between;
+    /* flex: 1; */
+    justify-content: space-around;
 }
 .copyright-message{
     text-align: center;
-    justify-content: center;
-    /* margin-right: 100px; */
+    align-items: center;
 }
 .social-icon {
     align-items: center;
-    gap: 100px;
 }
 .social-icon a{
     color: lightskyblue;
