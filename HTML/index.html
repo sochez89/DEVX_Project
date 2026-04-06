@@ -5,78 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevX project</title>
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="/HTML/CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
         <nav class="nav-bar">
-            <h1 href="#" class="logo-name">DEVX</h1>
-            <ul class="nav-links1">
-                <li><a href="">Home</a></li>
-                <li><a href="">Our Programs</a></li>
-                <li><a href="">Why TPU</a></li>
-                <li><a href="">Community</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="">FAQs</a></li>
-            </ul>
-            <ul class="nav-links2">
-                <li><a href="">Sign in</a></li>
-                <li><a href="" class="signup">Sign Up</a></li>
-            </ul>
+            <div class="nav-left">
+                <h1 href="#" class="logo-name">DEVX</h1>
+            </div>
+            <div class="nav-center">
+                <a href="">Home</a>
+                <a href="">Our Programs</a>
+                <a href="">Why TPU</a>
+                <a href="">Community</a>
+                <a href="">Contact Us</a>
+                <a href="">FAQs</a>
+            </div>
+            <div class="nav-right">
+                <a href="">Sign in</a>
+                <a href="" class="signup">Sign Up</a>
+            </div>
         </nav>
     </header>
 
     <main>
-        <section class="section1">
-            <h6 class="first-header">Welcome to DevX</h6>
-            <p class="growing-skill">Defining your future Starts With growing your skills</p>
-            <p class="description">The go to place where developers gets discoverted by employers. Your best developer
-                hub.</p>
-
-            <button class="btn-started">Get Started Now</button>
+        <section class="hero">
+            <div class="hero1">
+                <h6 class="first-header">Welcome to DevX</h6>
+            </div>
+            <div class="hero2">
+                <p class="growing-skill">Defining your future Starts With growing your skills</p>
+                <p class="hero-desc">The go to place where developers gets discoverted by employers. Your best developer
+                    hub.</p>
+            </div>
+            <div class="hero3"><button class="btn-started">Get Started Now</button></div>
         </section>
+
         <section class="few-numbers">
-            <h3 class="num">Here are a few numbers that we are proud of</h3>
-            <section class="achievement">
-                <section class="trophy">
-                    <img src="./Images/Trophy.png" alt="Trophy">
-                    <p>17+ AWARDS REWARDED</p>
-                </section>
-
-                <section class="users">
-                    <img src="./Images/Users.png
-                    " alt="Users ">
-                    <P>20+ TEACHERS</P>
-                </section>
-
-                <section class="smiley">
-                    <img src="./Images/Smiley.png" alt="Smiley">
-                    <P>13000+ SUCCESSFUL MEMBERS</P>
-                </section>
-
-                <section class="brief-case">
-                    <img src="./Images/Briefcase.png" alt="Brief case">
-                    <P>315+ COMPLETED PROJECTS</P>
-                </section>
-            </section>
+            <div class="num">
+                <h3 class="num">Here are a few numbers that we are proud of</h3>
+            </div>
+            <div class="achievement">
+                <div class="trophy">
+                    <img class="trophy-pix" src="/HTML/Images/Trophy.png" alt="Trophy">
+                    <div class="trophy-label">
+                        <div class="t-numbers">17+</div>
+                        <div class="t-desc">AWARDS REWARDED</div>
+                    </div>
+                </div>
+                <div class="users">
+                    <img src="/HTML/Images/Users.png" alt="User">
+                    <div class="trophy-label">
+                        <div class="t-numbers">20+</div>
+                        <div class="t-desc">TEACHERS</div>
+                    </div>
+                </div>
+                <div class="smiley">
+                    <img src="/HTML/Images/Smiley.png" alt="smiley">
+                    <div class="trophy-label">
+                        <div class="t-numbers">13000+</div>
+                        <div class="t-desc">SUCCESSFUL MEMBERS</div>
+                    </div>
+                </div>
+                <div class="brief-case">
+                    <img src="/HTML/Images/Briefcase.png" alt="projects">
+                    <div class="trophy-label">
+                        <div class="t-numbers">315+</div>
+                        <div class="t-desc">COMPLETED PROJECTS</div>
+                    </div>
+                </div>
+            </div>
         </section>
 
-        <section class="our_story">
+        <section class="our-story">
             <aside class="story">
                 <h3 class="our_header">Our Story</h3>
-                <p class="story_description"> <strong>We're a Tech hub for aspiring and established developers
-                        across</strong> <em>Africa.</em></p>
-                <p class="story_description_2">
+                <p class="story-description1"> <strong>We're a Tech hub for aspiring and established developers
+                        across</strong> <strong style="color:#60269E; ">Africa.</strong></p>
+                <p class="story-description2">
                     We stand out by providing a community where opportunity meets preparation, and setup our members for
                     absolute success.
                 </p>
-                <p>We also foster supportive and collaborative growth sessions for developers to connect and grow
+                <p class="story-description3">We also foster supportive and collaborative growth sessions for developers
+                    to connect and grow
                     together.</p>
             </aside>
-            <aside class="image_behind_our_story">
-                <img src="./Images/Image.png" alt="our story image">
+            <aside class="image-behind-our-story">
+                <img class="image-behind-our-story" width="572px" height="500px" src="/HTML/Images/Image.png"
+                    alt="our story image">
             </aside>
         </section>
 
@@ -87,76 +106,127 @@
 
             <section class="difference">
                 <h3 class="whatSetsUsApartHeader">What Sets Us Apart</h3>
-                <img width="50px" height="auto" class="scholarship" src="./Images/Scholarship.png" alt="Join our team"
-                    alt="Join our team">
-                <h5> <strong>1. Project Based-Learning</strong></h5>
-                <p>Our commitment to providing well thought out project for our aspiring developers to build is what
-                    makes the mark, we ensure that our learners have access top-notch educational content without the
-                    financial
-                    burden.</p>
+                <div class="project-box">
+                    <button class="arrow-btn left">
+                        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
+                    </button>
+                    <img width="65.74px" height="65.74px" class="scholarship" src="/HTML/Images/Scholarship.png"
+                        alt="Join our team" alt="Join our team">
+                    <h5> <strong>1. Project Based-Learning</strong></h5>
+                    <p>Our commitment to providing well thought out project for our aspiring developers to build is what
+                        makes the mark, we ensure that our learners have access top-notch educational content without
+                        the financial burden.</p>
+                    <button class="arrow-btn right">
+                        <svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="9 18 15 12 9 6"></polyline>
+                        </svg>
+                    </button>
+                </div>
+
             </section>
         </section>
-        <section class="join_our_team">
-            <section class="team_description">
-                <h3 class="join_team_header">Join Our Thriving Developer Community</h3>
-                <ul class="list1">
-                    <li><em>Shared Knowledge: </em>Benefit from the collective wisdom of our community. Ask questions,
-                        seek advice, and contribute your expertise to a supportive environment</li>
-                    <li><em>Collaborative Projects:</em>Find collaborators for your projects, participate in hackathons,
-                        and engage in hands-on experiences that go beyond theoretical learning.</li>
-                    <li><em>Networking Opportunities: </em>Connect with experienced developers, industry experts, and
-                        potential collaborators. Networking is a key ingredient in a successful career, and OralLearn
-                        provides the platform for meaningful connections.</li>
-                </ul>
+        <section class="joined-mid-section">
+            <section class="join-our-team">
+                <section class="team-description">
+                    <div class="join-team-header">
+                        <h3 class="join-team-header">Join Our Thriving Developer Community</h3>
+                    </div>
+                    <div class="list1">
+                        <ul class="list1">
+                            <li><em>Shared Knowledge: </em>Benefit from the collective wisdom of our community. Ask
+                                questions,
+                                seek advice, and contribute your expertise to a supportive environment</li>
+                            <li><em>Collaborative Projects:</em>Find collaborators for your projects, participate in
+                                hackathons,
+                                and engage in hands-on experiences that go beyond theoretical learning.</li>
+                            <li><em>Networking Opportunities: </em>Connect with experienced developers, industry
+                                experts,
+                                and
+                                potential collaborators. Networking is a key ingredient in a successful career, and
+                                OralLearn
+                                provides the platform for meaningful connections.</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="join_our_team_image">
+                    <div class="groupImages">
+                        <div class="firstImage">
+                            <img src="/HTML/Images/080.png" width="159px" height="179px" alt="080">
+                        </div>
+                        <div class="secondImage">
+                            <img width=563px height="438px" src="/HTML/Images/image306.png" alt="Join our team">
+                        </div>
+                        <div class="thirdImage">
+                            <img src="/HTML/Images/082.png" alt="">
+                        </div>
+                    </div>
+                </section>
             </section>
 
-            <section class="join_our_team_image">
-                <img width=400px height="auto" src="./Images/image306.png" alt="Join our team">
+
+            <section class="grow-career">
+                <section class="grow">
+                    <div class="grow-header">
+                        <h3>Grow your career! Start learning with OralLearn.</h3>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatibus nulla sit quos
+                    </p>
+                    <button class="grow-button">Our Courses</button>
+                </section>
+
+                <section class="growCareerImage">
+                    <img class="image_cover" width="688.68px" height="auto" src="/HTML/Images/group39.png"
+                        alt="Grow your career">
+                </section>
             </section>
         </section>
-        <section class="grow-career">
-            <section class="grow">
-                <h3>Grow your career! Start learning with OralLearn</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate voluptatibus nulla sit quos</p>
-            </section>
 
-            <section class="growCareerImage">
-                <img class="image_cover" width="350px" height="auto" src="/HTML/Images/group39.png"
-                    alt="Grow your career">
-            </section>
-
-        </section>
         <section class="our-mentors">
-            <h4>Meet Our Mentors</h4>
-            <p class="meet-mentors">In DevX, instructors from all over the world instruct millions of students. We offer
-                the knowledge and abilities.</p>
+            <div class="meet">
+                <h4 class="mentor-heading">Meet Our Mentors</h4>
+                <p class="meet-mentors">In DevX, instructors from all over the world instruct millions of students. We
+                    offer
+                    the knowledge and abilities.</p>
+            </div>
+
             <div class="mentor-boxes">
                 <div class="mentor-box">
-                    <div class="mentor-image"><img src="/HTML/Images/creatorOfDevx.png" alt=""></div>
+                    <div><img class="mentor-image" width="80px" height="82.32px" src="/HTML/Images/creatorOfDevx.png"
+                            alt="">
+                    </div>
                     <div class="mentor-name">ATO Bradley</div>
-                    <div class="title">Creator of DevX</div>
-                    <div class="role">Former co-founder of Opendoor. Early staff at spotify and clearbit.</div>
+                    <div class="mentor-title">Creator of DevX</div>
+                    <div class="mentor-role">Former co-founder of Opendoor. Early staff at spotify and clearbit.</div>
                     <div class="mentor-social"></div>
                 </div>
                 <div class="mentor-box">
-                    <div class="mentor-image"><img src="/HTML/Images/developer.png" alt=""></div>
+                    <div><img class="mentor-image" width="80px" height="80px" src="/HTML/Images/developer.png" alt="">
+                    </div>
                     <div class="mentor-name">Florian Lowe</div>
-                    <div class="title">Developer</div>
-                    <div class="role">Lead Engineering teams at Figma, Pitch, and Protocol labs</div>
+                    <div class="mentor-title">Developer</div>
+                    <div class="mentor-role">Lead Engineering teams at Figma, Pitch, and Protocol labs</div>
                     <div class="mentor-social"></div>
                 </div>
                 <div class="mentor-box">
-                    <div class="mentor-image"><img src="/HTML/Images/UIUXDesigner.png" alt=""></div>
+                    <div><img class="mentor-image" width="80px" height="80px" src="/HTML/Images/UIUXDesigner.png"
+                            alt="">
+                    </div>
                     <div class="mentor-name">Paul Kamdoum Nji</div>
-                    <div class="title">UIUX Designer</div>
-                    <div class="role">Full Stack Developer, Full stack Developer.</div>
+                    <div class="mentor-title">UIUX Designer</div>
+                    <div class="mentor-role">Full Stack Developer, Full stack Developer.</div>
                     <div class="mentor-social"></div>
                 </div>
                 <div class="mentor-box">
-                    <div class="mentor-image"><img src="/HTML/Images/backendDeveloper.png" alt=""></div>
+                    <div><img class="mentor-image" width="80px" height="80px" src="/HTML/Images/backendDeveloper.png"
+                            alt="">
+                    </div>
+
                     <div class="mentor-name">Marvin McKinney </div>
-                    <div class="title">Backend Developer</div>
-                    <div class="role">Former frontend for Linear, Coinbase, and Postscript.</div>
+                    <div class="mentor-title">Backend Developer</div>
+                    <div class="mentor-role">Former frontend for Linear, Coinbase, and Postscript.</div>
                     <div class="mentor-social"></div>
                 </div>
 
@@ -167,7 +237,7 @@
             <section class="foot-note1">
                 <div class="foot-header">
                     <h4>DEVX</h4>
-                    <p>Top learning experience that create more talent in the world</p>
+                    <p class="top-experience">Top learning experience that create more talent in the world</p>
                 </div>
                 <div class="social-link">
                     <section class="social1">
@@ -186,7 +256,7 @@
                     <section class="social3">
                         <h4>Legal</h4>
                         <div>Terms</div>
-                        <div>Condition</div>
+                        <div>Privacy</div>
                     </section>
                 </div>
             </section>
